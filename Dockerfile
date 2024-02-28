@@ -9,9 +9,7 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
 
 
-RUN npm install
 
-COPY . .
 
 EXPOSE 5000
 
